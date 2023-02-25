@@ -46,12 +46,12 @@ The training set contains more than 60,000 samples, while your trained model wil
 
 ## Solution and Explanation of HackerRank2.py file(Including the tools used)
 
-The very first task was to extract the datasets from hm_train.csv and hm_test.csv(present in 'dataset folder) and then check for integrity of the dataset(eg. checking if the ids are unique etc.).
-*I have also tried some pre-processing like stemming the words and chopping the text from the sentences which did perform very well.
-Then the train data was randomly splited into train and test set ( train : test :: 4 : 1 ) and vectorized dataset seperately to prevent data leakage.
-*I have designed two vectorizers based on AvgWord2Vec and TFIDF Weighted Word2Vec which are stored in the folders Vectorizers. I have used these vectorizers in my first 3 submissions(But did not give me better result than TF_IDF in this case).
-Now using the GridSearchCV, parameters for the ComplementNB(considered as best Machine Learning algorithm for text classification task) was tuned.
-After getting the best parameter(here alpha) for ComplementNB, vectorization and traing of the whole test data was done. Followed by the vectorization and prediction of the test data.
+- The very first task was to extract the datasets from hm_train.csv and hm_test.csv(present in 'dataset folder) and then check for integrity of the dataset(eg. checking if the ids are unique etc.).
+- I have also tried some pre-processing like stemming the words and chopping the text from the sentences which did perform very well.
+- Then the train data was randomly splited into train and test set ( train : test :: 4 : 1 ) and vectorized dataset seperately to prevent data leakage.
+- *I have designed two vectorizers based on AvgWord2Vec and TFIDF Weighted Word2Vec which are stored in the folders Vectorizers. I have used these vectorizers in my first 3 submissions(But did not give me better result than TF_IDF in this case).
+- Now using the GridSearchCV, parameters for the ComplementNB(considered as best Machine Learning algorithm for text classification task) was tuned.
+- After getting the best parameter(here alpha) for ComplementNB, vectorization and traing of the whole test data was done. Followed by the vectorization and prediction of the test data.
 
 ## References
 https://stackoverflow.com/a/48803361/4084039<br>
