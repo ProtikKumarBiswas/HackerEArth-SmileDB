@@ -1,9 +1,9 @@
 # Problem Statement
 
-SmileDB is a corpus of more than 100,000 happy moments crowd-sourced via Amazon's Mechanical Turk.
-Each worker is given the following task: What made you happy today? Reflect on the past 24 hours, and recall three actual events that happened to you that made you happy. Write down your happy moment in a complete sentence. (Write three such moments.)
-The goal of the corpus is to advance the understanding of the causes of happiness through text-based reflection.
-Based on the happy moment statement you have to predict the category of happiness, i.e. the source of happiness which is typically either of the following:<br>
+- SmileDB is a corpus of more than 100,000 happy moments crowd-sourced via Amazon's Mechanical Turk.
+- Each worker is given the following task: What made you happy today? Reflect on the past 24 hours, and recall three actual events that happened to you that made you happy. Write down your happy moment in a complete sentence. (Write three such moments.)
+- The goal of the corpus is to advance the understanding of the causes of happiness through text-based reflection.
+- Based on the happy moment statement you have to predict the category of happiness, i.e. the source of happiness which is typically either of the following:<br>
 	['bonding', 'achievement', 'affection', 'leisure', 'enjoy_the_moment', 'nature', 'exercise'. ]
 
 ## Data Description
@@ -54,6 +54,6 @@ The training set contains more than 60,000 samples, while your trained model wil
 - After getting the best parameter(here alpha) for ComplementNB, vectorization and traing of the whole test data was done. Followed by the vectorization and prediction of the test data.
 
 ## References
-https://stackoverflow.com/a/48803361/4084039<br>
-https://www.programiz.com/python-programming/examples/remove-punctuation<br>
-https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html
+- https://stackoverflow.com/a/48803361/4084039<br>
+- https://www.programiz.com/python-programming/examples/remove-punctuation<br>
+- https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html
