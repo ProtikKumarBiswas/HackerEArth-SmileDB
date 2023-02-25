@@ -43,15 +43,6 @@ The training set contains more than 60,000 samples, while your trained model wil
 	</tr>
 </table>
 
----------------------------------------------------------------------------------------------
-|Column Name        | Column Description                                  | Column Datatype |
----------------------------------------------------------------------------------------------
-|Hmid               | Id of the person                                    | Int64           |
-|Reflection_period  | The time of happiness                               | Object          |
-|Cleaned_hm         | Happiness Statement Made                            | Object          |
-|Num_sentence       | No. of sentences present in the person's statement. | Int64           |
-|Predicted_category | Source of happiness                                 | Object          |
----------------------------------------------------------------------------------------------
 
 # Solution and Explanation of HackerRank2.py file(Including the tools used)
 
