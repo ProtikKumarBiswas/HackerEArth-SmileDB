@@ -10,6 +10,43 @@ Based on the happy moment statement you have to predict the category of happines
 
 The training set contains more than 60,000 samples, while your trained model will be tested on more than 40,000 samples.
 
+<table>
+	<tr>
+		<th> Column Name </th>
+		<th> Column Description  </th>
+		<th> Column Datatype </th>
+	</tr>
+	<tr>
+		<td>Hmid  
+		<td> Id of the person
+		<td> Int64
+	</tr>
+		
+	<tr>
+		<td>Reflection_period
+		<td> The time of happiness
+		<td> Object
+	</tr>
+
+	<tr>
+		<td>Cleaned_hm  
+		<td> Happiness Statement Made
+		<td> Object
+	</tr>
+
+	<tr>
+		<td>Num_sentence
+		<td> No. of sentences present in the person's statement. 
+		<td> Int64
+	</tr>
+
+	<tr>
+		<td>Predicted_category
+		<td> Source of happiness
+		<td> Object
+	</tr>
+</table>
+
 ---------------------------------------------------------------------------------------------
 |Column Name        | Column Description                                  | Column Datatype |
 ---------------------------------------------------------------------------------------------
@@ -30,7 +67,7 @@ Now using the GridSearchCV, parameters for the ComplementNB(considered as best M
 After getting the best parameter(here alpha) for ComplementNB, vectorization and traing of the whole test data was done. Followed by the vectorization and prediction of the test data.
 
 #References
---------------------------------------------------------------------------------------------------------
+
 https://stackoverflow.com/a/48803361/4084039
 https://www.programiz.com/python-programming/examples/remove-punctuation
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.replace.html
