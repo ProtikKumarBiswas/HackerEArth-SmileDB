@@ -7,7 +7,7 @@ Based on the happy moment statement you have to predict the category of happines
 	['bonding', 'achievement', 'affection', 'leisure', 'enjoy_the_moment', 'nature', 'exercise'. ]
 
 # Data Description
---------------------------------------------------------------------------------------------------------
+
 The training set contains more than 60,000 samples, while your trained model will be tested on more than 40,000 samples.
 
 ---------------------------------------------------------------------------------------------
@@ -21,7 +21,7 @@ The training set contains more than 60,000 samples, while your trained model wil
 ---------------------------------------------------------------------------------------------
 
 # Solution and Explanation of HackerRank2.py file(Including the tools used)
---------------------------------------------------------------------------------------------------------
+
 The very first task was to extract the datasets from hm_train.csv and hm_test.csv(present in 'dataset folder) and then check for integrity of the dataset(eg. checking if the ids are unique etc.).
 *I have also tried some pre-processing like stemming the words and chopping the text from the sentences which did perform very well.
 Then the train data was randomly splited into train and test set ( train : test :: 4 : 1 ) and vectorized dataset seperately to prevent data leakage.
