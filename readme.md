@@ -18,32 +18,32 @@ The training set contains more than 60,000 samples, while your trained model wil
 	</tr>
 	<tr>
 		<td>Hmid</td>
-		<td> ID of the person</td>
-		<td> Int64</td>
+		<td>ID of the person</td>
+		<td>Int64</td>
 	</tr>
 		
 	<tr>
 		<td>Reflection_period</td>
-		<td> The time of happiness</td>
-		<td> Object</td>
+		<td>The time of happiness</td>
+		<td>Object</td>
 	</tr>
 
 	<tr>
 		<td>Cleaned_hm</td>  
-		<td> Happiness Statement Made</td>
-		<td> Object</td>
+		<td>Happiness Statement Made</td>
+		<td>Object</td>
 	</tr>
 
 	<tr>
 		<td>Num_sentence</td>
-		<td> No. of sentences present in the person's statement. </td>
-		<td> Int64</td>
+		<td>No. of sentences present in the person's statement.</td>
+		<td>Int64</td>
 	</tr>
 
 	<tr>
 		<td>Predicted_category</td>
-		<td> Source of happiness</td>
-		<td> Object</td>
+		<td>Source of happiness</td>
+		<td>Object</td>
 	</tr>
 </table>
 
